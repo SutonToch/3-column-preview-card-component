@@ -1,0 +1,11 @@
+@use "variables" as var;
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: var.$clr-very-dark-blue;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

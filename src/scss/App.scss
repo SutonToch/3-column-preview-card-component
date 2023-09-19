@@ -1,0 +1,67 @@
+@use "variables" as var;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: var.$fs-normal;
+    font-weight: var.$fw-regular;
+    color: var.$clr-grayish-blue;
+    background-color: var.$clr-very-light-gray;
+}
+
+h1, h2 {
+    color: var.$clr-very-dark-blue;
+}
+
+h1 {
+    font-size: var.$fs-huge;
+    font-weight: var.$fw-very-light;
+}
+
+h2 {
+    font-size: var.$fs-huge;
+    font-weight: var.$fw-semi-bold;
+}
+
+p {
+    margin-top: var.$spc-normal;
+}
+
+%container {
+    max-width: 400px;
+    padding: var.$spc-large;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title-container {
+    @extend %container;
+}
+
+.card-container {
+    @extend %container;
+}
+
+@media screen and (min-width: 900px) {
+
+    .title-container {
+        max-width: 600px;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: var.$spc-large;
+        max-width: 1500px;
+    }
+
+    .col {
+        width: 100%;
+        max-width: 340px;
+    }
+}
