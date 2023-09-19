@@ -1,5 +1,5 @@
 .card-container {
-  max-width: 375px;
+  max-width: 263px;
   padding: 2.5em;
 }
 .card-container .img-container {
@@ -18,10 +18,11 @@
 }
 .card-container button {
   font-weight: 700;
-  background-color: hsl(0, 0%, 95%);
   border: none;
   border-radius: 50px;
   padding: 0.8em 2em;
+  border: 2px solid hsl(0, 0%, 95%);
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=Card.css.map */

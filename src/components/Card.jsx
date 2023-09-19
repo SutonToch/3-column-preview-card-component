@@ -1,6 +1,21 @@
+import { useState } from 'react';
 import './../css/Card.css'
 
 export default function Card(props) {
+  const [isHover, setIsHover] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHover(true);
+  }
+
+ const handleMouseLeave = () => {
+    setIsHover(false);
+  }
+
+  const buttonColors = {
+    color: isHover ? "hsl(0, 0%, 95%)" : props.color,
+    backgroundColor: isHover ? props.color :"hsl(0, 0%, 95%)"
+  }
 
   return (
     <div className="card-container" style={{ backgroundColor: props.color }}>
@@ -9,7 +24,11 @@ export default function Card(props) {
         </div>
         <h2>{props.title}</h2>
         <p>{props.description}</p>
-        <button href="#" style={{ color: props.color }}>Learn More</button>
+        <button
+          style={buttonColors} 
+          onMouseEnter={handleMouseEnter} 
+          onMouseLeave={handleMouseLeave}
+        >Learn More</button>
     </div>
   )
 }
