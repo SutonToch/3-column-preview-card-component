@@ -1,12 +1,10 @@
-// import './../css/Card.css'
-
-// color, img, title, description
+import './../css/Card.css'
 
 export default function Card(props) {
 
   return (
-    <div style={{ backgroundColor: props.color }}>
-        <div>
+    <div className="card-container" style={{ backgroundColor: props.color }}>
+        <div className="img-container">
             <img src={`./src/assets/${props.img}`} alt={props.alt}/>
         </div>
         <h2>{props.title}</h2>

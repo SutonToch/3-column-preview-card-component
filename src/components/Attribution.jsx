@@ -1,4 +1,4 @@
-// import "./../css/Attribution.css"
+import "./../css/Attribution.css"
 
 export default function Attribution() {
     return (

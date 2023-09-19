@@ -1,6 +1,6 @@
 import Card from './components/Card.jsx'
 import Attribution from './components/Attribution.jsx'
-// import './css/App.css'
+import './css/App.css'
 import data from './data.js'
 
 export default function App() {
