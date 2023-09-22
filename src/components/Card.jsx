@@ -21,7 +21,7 @@ export default function Card(props) {
   return (
     <div className="card-container" style={{ backgroundColor: props.color }}>
         <div className="img-container">
-            <img src={`./src/assets/${props.img}`} alt={props.alt}/>
+            <img src={props.img} alt={props.alt}/>
         </div>
         <h2>{props.title}</h2>
         <p>{props.description}</p>
