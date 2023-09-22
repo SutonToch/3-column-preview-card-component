@@ -30,8 +30,7 @@ Users should be able to:
 
 ### Links
 
-**TBD**
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/mobilefirst-3column-preview-card-component-react-scss-2P9I_6mrbU](https://www.frontendmentor.io/solutions/mobilefirst-3column-preview-card-component-react-scss-2P9I_6mrbU)
 - Live Site URL: [https://sutontoch.github.io/3-column-preview-card-component/](https://sutontoch.github.io/3-column-preview-card-component/)
 
 ## My process
@@ -53,7 +52,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://stackabuse.com/how-to-style-hover-in-react/) - This helped me to understand how to hover style a custom component in react, if classes won't work.
+- [https://stackabuse.com/how-to-style-hover-in-react/](https://stackabuse.com/how-to-style-hover-in-react/) - This helped me to understand how to hover style a custom component in react, if classes won't work.
 
 ## Author
 
