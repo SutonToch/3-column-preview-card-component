@@ -7,7 +7,7 @@
 }
 .card-container h2 {
   font-family: "Big Shoulders Display";
-  font-size: 2rem;
+  font-size: 2.1rem;
   color: hsl(0, 0%, 95%);
   text-transform: uppercase;
   margin-top: 1em;
@@ -23,6 +23,12 @@
   padding: 0.8em 2em;
   border: 2px solid hsl(0, 0%, 95%);
   cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+  .card-container button {
+    margin-top: 2.5em;
+  }
 }
 
 /*# sourceMappingURL=Card.css.map */
