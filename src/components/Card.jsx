@@ -4,14 +4,15 @@ import './../css/Card.css'
 export default function Card(props) {
   const [isHover, setIsHover] = useState(false);
 
-  const handleMouseEnter = () => {
+  function handleMouseEnter() {
     setIsHover(true);
   }
 
- const handleMouseLeave = () => {
+ function handleMouseLeave() {
     setIsHover(false);
   }
 
+  // static value is $clr-very-light-gray from ./../scss/_variables.scss
   const buttonColors = {
     color: isHover ? "hsl(0, 0%, 95%)" : props.color,
     backgroundColor: isHover ? props.color :"hsl(0, 0%, 95%)"
